@@ -69,9 +69,14 @@ const restartGame = () => {
     clouds.style.animation = '';
     clouds.style.left = '';
 
-    mario.src = "./images/mario.png";
-    mario.style.width = '75px';
-    mario.style.marginLeft = '0px';
+
+ mario.style.animation = '';
+ mario.style.bottom = '0px';
+ mario.style.width = '155px';
+ mario.style.marginLeft = '0px'; 
+mario.src = './images/mario.gif';
+
+
 
 
     scoreDisplay.classList.remove('finalScore');
