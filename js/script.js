@@ -74,7 +74,7 @@ const restartGame = () => {
  mario.style.bottom = '0px';
  mario.style.width = '155px';
  mario.style.marginLeft = '0px'; 
-mario.src = './images/mario.gif';
+mario.src = 'dashGame/images/mario.gif';
 
 
 
